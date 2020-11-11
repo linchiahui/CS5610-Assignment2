@@ -1,0 +1,20 @@
+.text-xs-right .btn {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#game-rule-btn {
+  margin-top: 50px;
+}
+
+#game-rule p {
+  color: seashell;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 600px){
+  .text-xs-right .btn{
+    font-size: 15px;
+  }
+}

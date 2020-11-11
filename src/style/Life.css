@@ -1,0 +1,38 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-page {
+  text-align: center;
+  width: 100vw;
+  background-image: url("./images/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: space;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  opacity: 1;
+  margin: 0px;
+  padding: 70px;
+}
+
+.game-page p {
+  color: seashell;
+  /* color: #000000; */
+}
+
+.text-xs-right {
+  position: absolute;
+  right: 30px;
+}
+
+.text-xs-right .btn {
+  padding: 3px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px){
+  p{
+    font-size: 15px;
+  }
+}
